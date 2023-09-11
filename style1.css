@@ -1,0 +1,37 @@
+.video-container{
+	position: relative;
+	width:100%;
+	height: 100%;
+	overflow:hidden;
+}
+#background-video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+/* Style the video choices container */
+.video-choices {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+/* Style each video choice */
+.choice {
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: pink;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+    background-color: pink;
+}
